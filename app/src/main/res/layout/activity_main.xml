@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/unnamed"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="231dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/architects_daughter"
+            android:gravity="center"
+            android:text="İsminizi Giriniz :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:fontFamily="@font/architects_daughter"
+            android:inputType="textPersonName"
+            android:text="  "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="top"
+        android:text="Oyuna Başla"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#F8F6F6" />
+    <Button
+        android:id="@+id/muzik"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="top"
+        android:text="Şarkıyı Başlat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#F8F6F6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:layout_margin="150dp"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
+        android:text="MEMORY GAME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
